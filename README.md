@@ -36,14 +36,25 @@ Antes de executar, instale as dependências:
 pip install -r requirements.txt
 ```
 
-## ▶️ Como executar | How to run
+---
 
-### ▶️ Verificar status de um host | Check host status
+## ▶️ Como executar | How to run
+```bash
+git clone https://github.com/jomarferreira/network-ping-tool.git
+cd network-ping-tool
+pip install -r requirements.txt
+```
+
+---
+
+### Verificar status de um host | Check host status
 ```bash
 python ping_status.py
 ```
 
-### ▶️ Executar múltiplos pings | Run multiple pings
+---
+
+### Executar múltiplos pings | Run multiple pings
 ```bash
 python ping_count.py google.com 4
 ```
