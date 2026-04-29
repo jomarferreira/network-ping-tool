@@ -1,24 +1,62 @@
-#​ Windows thumbnail cache files
+# =========================
+# Byte-compiled / optimized
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.venv/
+env/
+
+# =========================
+# Distribution / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+*.egg
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Unit test / coverage
+# =========================
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
 Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
 
-# Dump file
-*.stackdump
+# =========================
+# Environment variables
+# =========================
+.env
 
-#​ Folder config file
-[Dd]esktop.ini
-
-#​ Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-#​ Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-#​ Windows shortcuts
-*.lnk
+# =========================
+# Misc
+# =========================
+*.sqlite3
